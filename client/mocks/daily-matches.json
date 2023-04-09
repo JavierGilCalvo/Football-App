@@ -1,0 +1,1080 @@
+{
+    "summaries": [{
+        "sport_event": {
+            "id": "sr:sport_event:40113465",
+            "start_time": "2023-04-06T00:00:00+00:00",
+            "start_time_confirmed": true,
+            "sport_event_context": {
+                "sport": {
+                    "id": "sr:sport:1",
+                    "name": "Soccer"
+                },
+                "category": {
+                    "id": "sr:category:393",
+                    "name": "International Clubs"
+                },
+                "competition": {
+                    "id": "sr:competition:498",
+                    "name": "CONCACAF Champions League",
+                    "gender": "men"
+                },
+                "season": {
+                    "id": "sr:season:100741",
+                    "name": "CONCACAF Champions League 2023",
+                    "start_date": "2023-03-07",
+                    "end_date": "2023-06-05",
+                    "year": "2023",
+                    "competition_id": "sr:competition:498"
+                },
+                "stage": {
+                    "order": 1,
+                    "type": "cup",
+                    "phase": "playoffs",
+                    "start_date": "2023-03-07",
+                    "end_date": "2023-06-05",
+                    "year": "2023"
+                },
+                "round": {
+                    "name": "quarterfinal",
+                    "other_sport_event_id": "sr:sport_event:40113481",
+                    "cup_round_sport_event_number": 1,
+                    "cup_round_number_of_sport_events": 2,
+                    "cup_round_id": "sr:cup_round:1797261"
+                },
+                "groups": [{
+                    "id": "sr:cup:141781",
+                    "name": "CONCACAF Champions League 2023"
+                }]
+            },
+            "coverage": {
+                "type": "sport_event",
+                "sport_event_properties": {
+                    "lineups": true,
+                    "venue": true,
+                    "extended_player_stats": false,
+                    "extended_team_stats": false,
+                    "lineups_availability": "pre",
+                    "ballspotting": true,
+                    "commentary": true,
+                    "fun_facts": true,
+                    "goal_scorers": true,
+                    "scores": "live",
+                    "game_clock": true,
+                    "deeper_play_by_play": true,
+                    "deeper_player_stats": true,
+                    "deeper_team_stats": true,
+                    "basic_play_by_play": true,
+                    "basic_player_stats": true,
+                    "basic_team_stats": true
+                }
+            },
+            "competitors": [{
+                "id": "sr:competitor:22047",
+                "name": "FC Motagua Tegucigalpa",
+                "country": "Honduras",
+                "country_code": "HND",
+                "abbreviation": "MOT",
+                "qualifier": "home",
+                "gender": "male"
+            }, {
+                "id": "sr:competitor:1940",
+                "name": "Tigres UANL",
+                "country": "Mexico",
+                "country_code": "MEX",
+                "abbreviation": "TIG",
+                "qualifier": "away",
+                "gender": "male"
+            }],
+            "venue": {
+                "id": "sr:venue:1169",
+                "name": "Estadio Tiburcio Carias Andino",
+                "capacity": 35000,
+                "city_name": "Tegucigalpa",
+                "country_name": "Honduras",
+                "map_coordinates": "14.098445,-87.203926",
+                "country_code": "HND",
+                "timezone": "America\/Tegucigalpa"
+            },
+            "channels": [{
+                "name": "Fox Sports 1",
+                "url": "https:\/\/www.foxsports.com\/presspass\/latest-news\/weekly-schedule",
+                "country": "United States",
+                "country_code": "USA"
+            }, {
+                "name": "Fubo TV",
+                "country": "United States",
+                "country_code": "USA"
+            }],
+            "sport_event_conditions": {
+                "referees": [{
+                    "id": "sr:referee:234858",
+                    "name": "Villarreal, Armando",
+                    "nationality": "USA",
+                    "country_code": "USA",
+                    "type": "main_referee"
+                }],
+                "ground": {
+                    "neutral": true
+                },
+                "lineups": {
+                    "confirmed": true
+                }
+            }
+        },
+        "sport_event_status": {
+            "status": "closed",
+            "match_status": "ended",
+            "home_score": 0,
+            "away_score": 1,
+            "winner_id": "sr:competitor:1940",
+            "period_scores": [{
+                "home_score": 0,
+                "away_score": 1,
+                "type": "regular_period",
+                "number": 1
+            }, {
+                "home_score": 0,
+                "away_score": 0,
+                "type": "regular_period",
+                "number": 2
+            }],
+            "ball_locations": [{
+                "order": 4,
+                "x": 62,
+                "y": 52,
+                "qualifier": "home"
+            }, {
+                "order": 3,
+                "x": 66,
+                "y": 28,
+                "qualifier": "home"
+            }, {
+                "order": 2,
+                "x": 45,
+                "y": 32,
+                "qualifier": "home"
+            }, {
+                "order": 1,
+                "x": 30,
+                "y": 39,
+                "qualifier": "home"
+            }],
+            "match_situation": {
+                "status": "attack",
+                "qualifier": "home",
+                "updated_at": "2023-04-06T02:00:43+00:00"
+            }
+        },
+        "statistics": {
+            "totals": {
+                "competitors": [{
+                    "id": "sr:competitor:22047",
+                    "name": "FC Motagua Tegucigalpa",
+                    "abbreviation": "MOT",
+                    "qualifier": "home",
+                    "statistics": {
+                        "ball_possession": 36,
+                        "cards_given": 2,
+                        "corner_kicks": 4,
+                        "fouls": 18,
+                        "free_kicks": 14,
+                        "goal_kicks": 6,
+                        "injuries": 0,
+                        "offsides": 0,
+                        "red_cards": 0,
+                        "shots_blocked": 1,
+                        "shots_off_target": 5,
+                        "shots_on_target": 1,
+                        "shots_saved": 7,
+                        "shots_total": 7,
+                        "substitutions": 5,
+                        "throw_ins": 21,
+                        "yellow_cards": 2,
+                        "yellow_red_cards": 0
+                    },
+                    "players": [{
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 1,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 1,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:215502",
+                        "name": "Hernandez, Eddie",
+                        "starter": true
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:244057",
+                        "name": "Licona, Marlon",
+                        "starter": true
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:250343",
+                        "name": "Montoya, Santiago",
+                        "starter": false
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 2,
+                            "shots_on_target": 1,
+                            "substituted_in": 0,
+                            "substituted_out": 1,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:345487",
+                        "name": "Castellanos Villatoro, Hector Enrique",
+                        "starter": true
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:358562",
+                        "name": "Alvarez, Kevin",
+                        "starter": false
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 1,
+                            "yellow_cards": 1,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:809838",
+                        "name": "Decas, Wesly",
+                        "starter": true
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:843561",
+                        "name": "Pereira, Marcelo",
+                        "starter": true
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:1024217",
+                        "name": "Delgado, Juan Angel",
+                        "starter": true
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 1,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:1109147",
+                        "name": "Lopez Cano, Ivan Edgardo",
+                        "starter": true
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 2,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 1,
+                            "shots_off_target": 1,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 1,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:1139802",
+                        "name": "Martinez Betanco, Walter Joel",
+                        "starter": true
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:1322876",
+                        "name": "Mejia, Carlos",
+                        "starter": false
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:1351432",
+                        "name": "Rougier, Jonathan Felipe",
+                        "starter": false
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:1351436",
+                        "name": "Melendez, Cristopher",
+                        "starter": true
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 1,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:1428133",
+                        "name": "Rodriguez Lopez, Diego Fernando",
+                        "starter": false
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 1,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:1555295",
+                        "name": "Moreira Aldana, Roberto Ramon",
+                        "starter": false
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 1,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:1738713",
+                        "name": "Nunez, Jonathan",
+                        "starter": false
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:2082321",
+                        "name": "Eduardo Maldonado",
+                        "starter": false
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:2130350",
+                        "name": "Rodriguez Duarte, Rodrigo Jose",
+                        "starter": false
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 1,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:2138916",
+                        "name": "Obregon Jr., Juan Carlos",
+                        "starter": false
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:2138918",
+                        "name": "Melendez, Carlos",
+                        "starter": true
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 1,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:2535681",
+                        "name": "Campana, Lucas",
+                        "starter": false
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:2535689",
+                        "name": "Guti\u00e9rrez, Cristian",
+                        "starter": false
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 1,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 1,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 1,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:2568337",
+                        "name": "Triverio, Gaspar",
+                        "starter": true
+                    }]
+                }, {
+                    "id": "sr:competitor:1940",
+                    "name": "Tigres UANL",
+                    "abbreviation": "TIG",
+                    "qualifier": "away",
+                    "statistics": {
+                        "ball_possession": 64,
+                        "corner_kicks": 11,
+                        "fouls": 13,
+                        "free_kicks": 18,
+                        "goal_kicks": 8,
+                        "injuries": 0,
+                        "offsides": 1,
+                        "red_cards": 0,
+                        "shots_blocked": 7,
+                        "shots_off_target": 2,
+                        "shots_on_target": 8,
+                        "shots_saved": 1,
+                        "shots_total": 17,
+                        "substitutions": 4,
+                        "throw_ins": 16,
+                        "yellow_cards": 0,
+                        "yellow_red_cards": 0
+                    },
+                    "players": [{
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 2,
+                            "shots_off_target": 1,
+                            "shots_on_target": 1,
+                            "substituted_in": 0,
+                            "substituted_out": 1,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:16424",
+                        "name": "Gignac, Andre Pierre",
+                        "starter": true
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 2,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:39423",
+                        "name": "Carioca, Rafael",
+                        "starter": true
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:106382",
+                        "name": "Guzman, Nahuel",
+                        "starter": true
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 1,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:107398",
+                        "name": "Pizarro, Guido",
+                        "starter": true
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 1,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:122092",
+                        "name": "Aquino, Javier",
+                        "starter": true
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 1,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:139421",
+                        "name": "Reyes, Diego",
+                        "starter": true
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:221566",
+                        "name": "Lichnovsky, Igor",
+                        "starter": true
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 6,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 1,
+                            "shots_off_target": 0,
+                            "shots_on_target": 2,
+                            "substituted_in": 0,
+                            "substituted_out": 1,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:255881",
+                        "name": "Lopez, Nicolas",
+                        "starter": true
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 1,
+                            "goals_scored": 1,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 1,
+                            "substituted_in": 0,
+                            "substituted_out": 1,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:285847",
+                        "name": "Quinones, Luis",
+                        "starter": true
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 1,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:285915",
+                        "name": "Vigon, Juan",
+                        "starter": false
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 2,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 1,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 1,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:339141",
+                        "name": "Gorriaran, Fernando",
+                        "starter": false
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 1,
+                            "shots_on_target": 1,
+                            "substituted_in": 1,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:1030235",
+                        "name": "Ibanez, Nicolas",
+                        "starter": false
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:1057413",
+                        "name": "Ortega, Miguel",
+                        "starter": false
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 1,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 1,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:1109995",
+                        "name": "Lainez, Diego",
+                        "starter": true
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:1240500",
+                        "name": "Tercero, Eduardo",
+                        "starter": false
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:1303084",
+                        "name": "Angulo, Jesus",
+                        "starter": true
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 1,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:1396837",
+                        "name": "Cordova, Francisco",
+                        "starter": false
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:1581514",
+                        "name": "Fulgencio, Raymundo",
+                        "starter": false
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:1836088",
+                        "name": "Garza, Jesus",
+                        "starter": false
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:1957541",
+                        "name": "Delgado, Arturo",
+                        "starter": false
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:2343077",
+                        "name": "Prieto, Leonel",
+                        "starter": false
+                    }, {
+                        "statistics": {
+                            "assists": 0,
+                            "corner_kicks": 0,
+                            "goals_scored": 0,
+                            "offsides": 0,
+                            "own_goals": 0,
+                            "red_cards": 0,
+                            "shots_blocked": 0,
+                            "shots_off_target": 0,
+                            "shots_on_target": 0,
+                            "substituted_in": 0,
+                            "substituted_out": 0,
+                            "yellow_cards": 0,
+                            "yellow_red_cards": 0
+                        },
+                        "id": "sr:player:2535411",
+                        "name": "Fierro, Sebastian",
+                        "starter": false
+                    }]
+                }]
+            }
+        }
+    }]
+}

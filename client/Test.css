@@ -1,0 +1,101 @@
+body {
+    --width-layout: 1048px;
+    --height-oneline: 35px;
+    --width-rating: 52px;
+    --width-service: 0;
+    --width-logo: 23px;
+    font-family: LivesportFinderLatin, Adjusted Arial Fallback, Arial, sans-serif;
+}
+
+.event {
+    color: var(--color-support-4);
+    font-size: 13px;
+}
+
+.event__header {
+    border-radius: 8px;
+    box-sizing: border-box;
+    grid-template-columns: 32px 1fr;
+    min-height: 32px;
+    align-items: center;
+    background-color: var(--color-support-1);
+    border-top: 1px solid var(--color-combination-9);
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-areas:
+        "check title .";
+    justify-content: flex-start;
+    position: relative;
+}
+
+.event__match {
+    border-bottom: 1px solid var(--color-combination-8);
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.event__match--twoLine {
+    grid-template: " check dropdown stageOrTime homeLogo homeParticipant homeScore homePart1 homePart2 iconStr iconInf iconTv iconStd liveIcon" minmax(23px, auto) " check dropdown stageOrTime awayLogo awayParticipant awayScore awayPart1 awayPart2 iconStr iconInf iconTv iconStd liveIcon" minmax(23px, auto) /max-content var(--width-dropdown, 0) var(--width-stageOrTime) var(--width-logo, 0) 1fr 34px 34px 34px 28px 24px 24px 38px 31px;
+}
+
+.event__time {
+    color: var(--color-support-4);
+    margin-left: 0;
+    text-align: center;
+    word-break: break-word;
+}
+
+.event .event__stage,
+.event .event__time {
+    grid-area: stageOrTime;
+}
+
+.event .event__participant--home {
+    grid-area: homeParticipant;
+    grid-row-start: homeParticipant;
+    grid-row-end: homeParticipant;
+    grid-column-start: homeParticipant;
+    grid-column-end: homeParticipant;
+}
+
+.event__match {
+    cursor: pointer;
+}
+
+.event__match--twoLine .event__participant {
+    line-height: 18px;
+    padding-left: 10px;
+    align-items: center;
+    display: flex;
+    hyphens: auto;
+}
+
+.event__match--twoLine .event__score {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.event .event__part--away.event__part--1 {
+    grid-area: awayPart1;
+}
+
+.event__match--twoLine .event__logo {
+    margin: 0 0 0 8px;
+    align-self: center;
+    background-position: 50%;
+    background-size: contain;
+    color: var(--color-combination-2);
+    height: 15px;
+    width: 15px;
+}
+
+.event .event__logo--home {
+    grid-area: homeLogo;
+}
+
+.event .event__logo--away {
+    grid-area: awayLogo;
+}

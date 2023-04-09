@@ -1,0 +1,59 @@
+.app {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.app ul {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit,
+            minmax(200px,
+                1fr));
+    gap: 1rem;
+    list-style-type: none;
+}
+
+.event__header {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 12px;
+    background-color: rgb(154, 240, 154);
+    color: #2d2d2d;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 28px;
+    white-space: nowrap;
+}
+
+.match-card {
+    display: grid;
+    grid-template-columns: [first] 50px [second] 1fr [third] 30px [end];
+    gap: 1rem;
+    border-bottom: 1px solid #c2c2c2;
+    box-sizing: border-box;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.match-card:hover {
+    background-color: #ebebeb;
+    transition: all .4s ease;
+}
+
+.time {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.score {
+    font-weight: bold;
+}

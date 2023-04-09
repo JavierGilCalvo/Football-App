@@ -1,0 +1,43 @@
+{
+    "generated_at": "2023-04-05T22:05:57+00:00",
+    "standings": [{
+        "tie_break_rule": "In the event that two (or more) teams have an equal number of points, the following rules break the tie:\n\n1. Head-to-head if all tied teams have paired matches\n2. Goal difference\n3. Goals scored",
+        "type": "total",
+        "groups": [{
+            "stage": {
+                "order": 1,
+                "type": "league",
+                "phase": "regular season",
+                "start_date": "2022-08-12",
+                "end_date": "2023-06-04",
+                "year": "22\/23"
+            },
+            "id": "sr:league:66173",
+            "name": "LaLiga 22\/23",
+            "live": false,
+            "standings": [{
+                "rank": 1,
+                "played": 27,
+                "win": 23,
+                "loss": 2,
+                "draw": 2,
+                "goals_for": 53,
+                "goals_against": 9,
+                "goals_diff": 44,
+                "competitor": {
+                    "id": "sr:competitor:2817",
+                    "name": "FC Barcelona",
+                    "country": "Spain",
+                    "country_code": "ESP",
+                    "abbreviation": "FCB",
+                    "gender": "male",
+                    "form": "LWWWW"
+                },
+                "points": 71,
+                "current_outcome": "Champions League",
+                "change": 0,
+                "points_per_game": 2.63
+            }]
+        }]
+    }]
+}
