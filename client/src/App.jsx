@@ -1,7 +1,11 @@
-import useDailyMatches from './hooks/useDailyMatches'
 import './App.css'
 import { LeagueCard } from './components/LeagueCard'
-
+import { DailyMatchesContext } from './context/DailyMatchesContext'
+import { useContext } from 'react'
+import { useStats } from './hooks/useStats'
+import { summaries as matchesFromCompetitor } from '../mocks/matches-competitor.json'
+import { Stat } from './components/Stats'
+import { MatchHeading } from './components/MatchHeading'
 /*
   PÁGINAS:
     - Partidos de hoy.
@@ -18,18 +22,48 @@ import { LeagueCard } from './components/LeagueCard'
     - Partidos de un equipo.
 */
 
+const testMatchChosen = 'sr:sport_event:39564043'
+
 function App () {
-  const matchesByLeague = useDailyMatches()
+  const { matchesByLeague } = useContext(DailyMatchesContext)
+
+  const matchOrNot = false
+
+  const matchChosen = matchesFromCompetitor.find(match => {
+    return match.sport_event.id === testMatchChosen
+  })
+  const { matchStats } = useStats({ matchChosen })
+
   return (
+
     <section className='app'>
-      <ul>
-        {matchesByLeague.map((league) => {
-          return (
-            <LeagueCard key={league.leagueName} leagueMatches={league} />
-          )
-        })}
-      </ul>
+
+      {matchOrNot &&
+      (
+        <ul>
+          {matchesByLeague.map((league) => {
+            return (
+              <LeagueCard key={league.leagueName} leagueMatches={league} />
+            )
+          })}
+        </ul>
+      )}
+      <>
+        <MatchHeading matchChosen={matchChosen} />
+        <div className='stats-section'>
+          {
+            Array.from(matchStats.values()).map(stat => {
+              return (
+                <Stat key={stat} matchChosen={matchChosen} stat={stat} />
+              )
+            })
+          }
+
+        </div>
+      </>
+
     </section>
+
   )
 }
 

@@ -1,0 +1,20 @@
+export const constants = {
+  ball_possession: 'Ball Possession (%)',
+  cards_given: 'Cards Total',
+  corner_kicks: 'Corners',
+  fouls: 'Fouls',
+  free_kicks: 'Free Kicks',
+  goal_kicks: 'Goal Kicks',
+  injuries: 'Injuries',
+  offsides: 'Offsides',
+  red_cards: 'Red Cars',
+  shots_blocked: 'Shots Blocked',
+  shots_off_target: 'Shots Off-Target',
+  shots_on_target: 'Shots On-Target',
+  shots_saved: 'Shots Saved',
+  shots_total: 'Shots Total',
+  substitutions: 'Substitutions',
+  throw_ins: 'Throw-ins',
+  yellow_cards: 'Yellow Cards',
+  yellow_red_cards: 'Red Cards'
+}
